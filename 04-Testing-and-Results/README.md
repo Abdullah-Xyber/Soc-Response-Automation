@@ -1,4 +1,4 @@
-# Part 5 — Automated Response and Endpoint Isolation
+Automated Response and Endpoint Isolation
 
 ## Overview
 
@@ -248,21 +248,6 @@ Slack received a notification confirming that the analyst decided not to isolate
 | No branch | Endpoint remains connected | Passed |
 | No-branch Slack notification | Status appears in Slack | Passed |
 
-## Security Controls
-
-The workflow includes the following security controls:
-
-- LimaCharlie permissions follow the principle of least privilege.
-- API keys, JWTs, passwords, and webhook secrets are excluded from GitHub.
-- Cloudflare stores credentials as encrypted secrets.
-- The response broker requires Bearer authentication.
-- The Worker validates the Sensor ID format.
-- Each analyst decision uses a unique UUID.
-- Each decision can only be submitted once.
-- Isolation requires explicit analyst approval.
-- The Yes and No response branches are separated.
-- Failed isolation requests are not automatically retried.
-- Decision URLs and credentials are not included in the documentation.
 
 ## Results
 

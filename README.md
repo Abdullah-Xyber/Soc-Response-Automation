@@ -8,7 +8,6 @@ This project connects endpoint detection with an automated response workflow. Li
 
 The Tines workflow sends Slack and email notifications, then asks an analyst whether to isolate the affected machine. If approved, LimaCharlie isolates the endpoint. If declined, the machine remains connected and a Slack message requests further investigation.
 
-**Status:** In progress — playbook workflow designed; implementation and testing underway.
 
 ## Objectives
 

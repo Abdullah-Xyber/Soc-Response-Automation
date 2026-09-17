@@ -103,7 +103,7 @@ The analyst has two options:
 
 The workflow contains separate response branches for these decisions.
 
-![Analyst decision branches](tines-decision-branches.png)
+![Analyst decision branches](tines-isolation-decision-branches.png)
 
 ## 6. LimaCharlie API Permissions
 
